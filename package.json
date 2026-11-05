@@ -1,0 +1,28 @@
+{
+  "name": "pawday",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "serve out",
+    "preview": "serve out",
+    "test": "node --test tests/*.test.js",
+    "check": "node check-location.cjs"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "overrides": {
+    "compression": "^1.8.2"
+  }
+}

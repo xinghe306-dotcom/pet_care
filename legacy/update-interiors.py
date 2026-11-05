@@ -1,3 +1,4 @@
+# HISTORICAL ONLY: edit Next.js components instead.
 from pathlib import Path
 import re
 p=Path(__file__).parent/'dist/index.html'

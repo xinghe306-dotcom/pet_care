@@ -1,3 +1,4 @@
+# HISTORICAL ONLY: edit Next.js components instead.
 from pathlib import Path
 from urllib.parse import quote
 
