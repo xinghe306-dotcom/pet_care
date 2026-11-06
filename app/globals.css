@@ -325,11 +325,16 @@ summary:focus-visible {
   align-items: center;
   gap: 10px;
 }
-.promise-row i {
-  font-style: normal;
-  color: #77916c;
-  font-size: 19px;
+.promise-icon {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 19px;
+  fill: currentColor;
 }
+.promise-leaf { color: #719267; }
+.promise-clock { color: #d28b4b; }
+.promise-heart { color: #d97d73; }
+.promise-sparkle { color: #c9a33b; }
 .promise-row .dot {
   color: #a5b09b;
   font-size: 8px;

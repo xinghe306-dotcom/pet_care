@@ -96,19 +96,27 @@ export function Hero() {
       <div className="promise-strip">
         <div className="wrap promise-row">
           <span>
-            <i>♧</i> 温和配方 · 呵护皮毛
+            <svg className="promise-icon promise-leaf" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M21 3C10 3 4 7 4 14a7 7 0 0 0 1.1 3.8C7.6 14 11 11.4 16 9.6c-4.4 2.5-7.3 5.5-9.3 9.4l-1.2 2a1 1 0 0 0 1.7 1l1.2-2A7 7 0 0 0 14 20c7 0 7-10 7-17Z" />
+            </svg> 温和配方 · 呵护皮毛
           </span>
           <b className="dot">✦</b>
           <span>
-            <i>◷</i> 预约到店 · 从容洗护
+            <svg className="promise-icon promise-clock" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fillRule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1 4a1 1 0 0 1 2 0v5.4l3.2 1.9a1 1 0 0 1-1 1.8l-3.7-2.2a1 1 0 0 1-.5-.9V6Z" clipRule="evenodd" />
+            </svg> 预约到店 · 从容洗护
           </span>
           <b className="dot">✦</b>
           <span>
-            <i>♡</i> 观察情绪 · 耐心陪伴
+            <svg className="promise-icon promise-heart" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12Z" />
+            </svg> 观察情绪 · 耐心陪伴
           </span>
           <b className="dot">✦</b>
           <span>
-            <i>✧</i> 清洁消毒 · 一客一用
+            <svg className="promise-icon promise-sparkle" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 1.5c.8 5.7 2.8 8.7 8.5 10.5-5.7 1.8-7.7 4.8-8.5 10.5C11.2 16.8 9.2 13.8 3.5 12 9.2 10.2 11.2 7.2 12 1.5Z" />
+            </svg> 清洁消毒 · 一客一用
           </span>
         </div>
       </div>
